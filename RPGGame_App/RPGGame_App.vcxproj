@@ -123,7 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="InGame.cpp" />
+    <ClCompile Include="KeyInput.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Result.cpp" />
     <ClCompile Include="RPGGame_App.cpp" />
+    <ClCompile Include="ScneManager.cpp" />
+    <ClCompile Include="Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InGame.h" />
+    <ClInclude Include="KeyInput.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Result.h" />
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="ScneManager.h" />
+    <ClInclude Include="Title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
